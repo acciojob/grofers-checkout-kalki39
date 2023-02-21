@@ -21,6 +21,7 @@ const getSum = () => {
 	let td2=tr.insertCell(1);
     td1.innerText="Total"
     td2.innerText=sum
+	td2.id='ans'
 	//  tr=`<td>total</td><td>${sum}</td>`
 //   tr.appendChild(td1);
 //   tr.appendChild(td2);
