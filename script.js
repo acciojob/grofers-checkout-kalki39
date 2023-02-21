@@ -12,17 +12,19 @@ const price=document.querySelectorAll(".price")
 let sum=0
 price.forEach((ele) => sum+=Number(ele.innerText))
 console.log(sum)
+let tr=table.insertRow(-1);
+	let td1=tr.insertCell(0);
+	let td2=tr.insertCell(1);
+    
+    td2.id='ans';
+	//  tr=`<td>to
 // getSumBtn.append(priceArr);
 const getSum = () => {
 //Add your code here
 	// let totalSum=priceArr.reduce((p,c) => p+c)
-	let tr=table.insertRow(-1);
-	let td1=tr.insertCell(0);
-	let td2=tr.insertCell(1);
+	// tal</td><td>${sum}</td>`
     td1.innerText="Total"
     td2.innerText=sum
-	td2.id='ans'
-	//  tr=`<td>total</td><td>${sum}</td>`
 //   tr.appendChild(td1);
 //   tr.appendChild(td2);
 //   table.append(tr);
